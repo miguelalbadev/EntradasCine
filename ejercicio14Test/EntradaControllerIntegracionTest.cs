@@ -26,5 +26,33 @@ namespace ejercicio14Test {
             EntradaDTO entradaDTO = new EntradaDTO();
             entradaController.Create(entradaDTO);
         }
+
+        [TestMethod]
+        public void LeeMethodEntrada() {
+
+            EntradaDTO entradaDTO = new EntradaDTO();
+            entradaController.Read(entradaDTO.Id);
+        }
+
+        [TestMethod]
+        public void LeeAllMethodEntrada() {
+
+            EntradaDTO entradaDTO = new EntradaDTO();
+            entradaController.ReadAll();
+        }
+
+        [TestMethod]
+        public void DeleteMethodEntrada() {
+
+            EntradaDTO entradaDTO = new EntradaDTO();
+            entradaController.Delete(entradaDTO.Id);
+        }
+
+        [TestMethod]
+        public void UpdateMethodEntrada() {
+
+            EntradaDTO entradaDTO = new EntradaDTO();
+            entradaController.Update(entradaDTO);
+        }
     }
 }

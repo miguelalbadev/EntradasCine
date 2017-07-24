@@ -12,19 +12,22 @@ namespace ejercicio14 {
         }
 
         public void Delete(long id) {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
         public Entrada Read(long id) {
-            throw new NotImplementedException();
+            return new Entrada();
+            //throw new NotImplementedException();
         }
 
         public IList<Entrada> ReadAll() {
-            throw new NotImplementedException();
+            IList<Entrada> listaEntradas = new List<Entrada>();
+            return listaEntradas;
+            //throw new NotImplementedException();
         }
 
         public void Update(Entrada entrada) {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
     }
 }
