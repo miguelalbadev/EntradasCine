@@ -40,6 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entrada.cs" />
+    <Compile Include="EntradaController.cs" />
+    <Compile Include="EntradaConverter.cs" />
+    <Compile Include="EntradaDTO.cs" />
+    <Compile Include="EntradaRepository.cs" />
+    <Compile Include="EntradaService.cs" />
+    <Compile Include="IEntradaController.cs" />
+    <Compile Include="IEntradaConverter.cs" />
+    <Compile Include="IEntradaRepository.cs" />
+    <Compile Include="IEntradaService.cs" />
     <Compile Include="IVentaController.cs" />
     <Compile Include="IVentaConverter.cs" />
     <Compile Include="IVentaRepository.cs" />
